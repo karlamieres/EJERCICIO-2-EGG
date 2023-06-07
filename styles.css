@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  #addRowBtn {
+    margin-top: 50px;
+    background-color: rgb(242, 255, 0);
+    text-align: center;
+  }
+  
+  #resetBtn {
+    margin-bottom: 50px;
+    background-color: rgb(242, 255, 0);
+    text-align: center;
+  }
+  

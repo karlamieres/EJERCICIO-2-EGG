@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla Dinámica</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <h1>Tabla dinamina diferentes países</h1>
+</head>
+<body>
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">NOMBRE DEL PAÍS</th>
+        <th onclick="sortTable(1)">PUNTAJE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true">Chile</td>
+        <td contenteditable="true">500</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Argentina</td>
+        <td contenteditable="true">300</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Perú</td>
+        <td contenteditable="true">800</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Bolivia</td>
+        <td contenteditable="true">200</td>
+      </tr>
+      <tr>
+        <td contenteditable="true">Uruguay</td>
+        <td contenteditable="true">600</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button id="addRowBtn" onclick="addRow()">Agregar fila</button>
+  <button id="resetBtn" onclick="resetTable()">Reset</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
